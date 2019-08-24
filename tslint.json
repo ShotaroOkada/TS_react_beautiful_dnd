@@ -16,7 +16,8 @@
     "strict-boolean-expressions": false,
     "jsx-boolean-value": false,
     "interface-name": false,
-    "interface-over-type-literal": false
+    "interface-over-type-literal": false,
+    "no-shadowed-variable": false
   },
   "jsRules": {
     "no-console": false

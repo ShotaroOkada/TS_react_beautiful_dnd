@@ -13,8 +13,18 @@ const initialData: IInitialData = {
             title: 'To do',
             taskIds: ['task-1', 'task-2', 'task-3', 'task-4'],
         },
+        {
+            id: 'column-2',
+            title: 'In progress',
+            taskIds: [],
+        },
+        {
+            id: 'column-3',
+            title: 'Done',
+            taskIds: [],
+        },
     ],
-    columnOrder: ['column-1'],
+    columnOrder: ['column-1', 'column-2', 'column-3'],
 };
 
 export default initialData;

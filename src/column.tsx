@@ -16,6 +16,10 @@ const Container = styled.div`
     margin: 8px;
     border: 1px solid lightgrey;
     border-radius: 2px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
 `;
 const Title = styled.h3`
     margin: 0px;
@@ -23,6 +27,8 @@ const Title = styled.h3`
 `;
 const TaskList = styled.div`
     padding: 8px;
+    flex-grew: 1;
+    min-height: 100px;
 `;
 
 export default class Column extends React.Component<IColumnProps> {
